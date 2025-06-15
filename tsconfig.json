@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "es2020",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": false,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "types": ["@cloudflare/workers-types"],
+    "lib": ["es2020", "webworker"],
+    "allowJs": false
+  },
+  "include": ["src", "tests"],
+  "exclude": ["node_modules"]
+}

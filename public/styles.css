@@ -1,0 +1,9 @@
+/* Basic mobile-first styles */
+body { font-family: sans-serif; margin: 0; padding: 0; }
+nav { display: flex; justify-content: space-between; align-items: center; }
+#menu-toggle { display: none; }
+@media (max-width: 768px) {
+  #menu-toggle { display: block; }
+  nav ul { display: none; }
+  nav[aria-expanded="true"] ul { display: block; }
+}
